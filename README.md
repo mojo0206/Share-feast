@@ -1,2 +1,2 @@
-# Share-feast
-A community-driven food sharing network that reduces waste by linking surplus meals from restaurants to people in need
+# ShareFeast
+A community-driven food sharing network that reduces waste by linking restaurants to NGOs to supply their surplus meals to the people in need
