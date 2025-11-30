@@ -1,2 +1,27 @@
-# ShareFeast
-A community-driven food sharing network that reduces waste by linking restaurants to NGOs to supply their surplus meals to the people in need
+<h1 align="center">🍽️ ShareFeast</h1>
+
+<p align="center">
+A community‑driven food sharing network reducing food waste by linking restaurants, hotels, and bakeries with NGOs & volunteers.
+<br>
+<b>Built with React • Firebase • Node.js • Aptos Blockchain</b>
+</p>
+<h1 align="center">✨ Features</h1>
+#For Providers (Restaurants / Hotels / Bakeries)
+Add surplus food listings with 🥘 title, 🧮 quantity, 📍 location, and 📸 photo
+Auto‑detect location + map autocomplete
+Dashboard with live stats (total donations, completed pickups)
+Update listing status (available → collected → completed)
+
+#For Collectors (NGOs / Volunteers)
+Browse real‑time available food listings
+Track pickup history
+Receive updates from providers
+Authentication roles (Provider / Collector)
+
+#Backend / Infrastructure
+Firebase Auth (email/password login)
+Firebase Firestore (listings, users, transactions)
+Firebase Storage (photos)
+Node.js backend for secure operations
+Aptos blockchain module for immutable donation logs
+
