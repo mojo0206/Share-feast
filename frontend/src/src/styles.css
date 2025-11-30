@@ -1,0 +1,41 @@
+:root {
+  --bg: #dddddd;
+  --card: #fff;
+  --accent: #0d7054;
+  --muted: #666;
+}
+
+body { margin:0; font-family: Inter, system-ui, sans-serif; background:var(--bg); color:#111; }
+.topbar { display:flex; justify-content:space-between; align-items:center; padding:14px 18px; background:var(--accent); color:white; }
+.topbar-left {
+  display: flex;
+  align-items: center;
+  gap: 32px; /* space between ShareFeast and the links */
+}
+.navlinks a {
+  margin-right: 18px;   /* spacing */
+  color: white;         /* keeps links white */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.brand { margin:0; font-size:20px; }
+.container { max-width:1100px; margin:20px auto; padding:0 16px; }
+.card { background:var(--card); padding:16px; border-radius:10px; box-shadow:0 6px 20px rgba(8,10,12,0.06); margin-bottom:16px; }
+.grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap:12px; }
+.auth-card { max-width:420px; margin:40px auto; padding:24px; text-align:center; }
+input[type="text"], input[type="password"], input[type="number"], input[type="file"], input[type="email"] {
+  width:100%; padding:10px 12px; margin:8px 0; border-radius:8px; border:1px solid #e6e8ee;
+}
+.btn { background:var(--accent); color:white; border:none; padding:10px 16px; border-radius:8px; cursor:pointer; }
+.btn-ghost { background:transparent; color:white; border:1px solid rgba(255,255,255,0.2); padding:8px 12px; border-radius:8px; cursor:pointer; }
+.listing-card .thumb { width:100%; height:140px; object-fit:cover; border-radius:8px; margin-top:8px; }
+.stat-card { display:inline-block; margin-right:10px; padding:12px 16px; border-radius:8px; background:white; box-shadow:0 3px 10px rgba(0,0,0,0.05); }
+.link-btn { background:none; border:none; color:var(--accent); cursor:pointer; margin-left:6px; }
+.muted { color:var(--muted); }
+.navlinks {
+  display: flex;
+  gap: 18px; /* you can increase to 22px or 28px if you want more spacing */
+  align-items: center;
+}
+

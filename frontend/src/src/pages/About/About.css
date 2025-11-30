@@ -1,0 +1,11 @@
+.about-container {
+  padding: 50px;
+  text-align: center;
+}
+
+section {
+  margin-top: 40px;
+  padding: 20px;
+  background: #f4f4f4;
+  border-radius: 15px;
+}
