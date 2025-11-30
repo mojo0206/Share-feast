@@ -6,19 +6,22 @@ A community‑driven food sharing network reducing food waste by linking restaur
 <b>Built with React • Firebase • Node.js • Aptos Blockchain</b>
 </p>
 <h1 align="center">✨ Features</h1>
-#For Providers (Restaurants / Hotels / Bakeries)
+**For Providers (Restaurants / Hotels / Bakeries)**
+<br>
 Add surplus food listings with 🥘 title, 🧮 quantity, 📍 location, and 📸 photo
 Auto‑detect location + map autocomplete
 Dashboard with live stats (total donations, completed pickups)
 Update listing status (available → collected → completed)
 
-#For Collectors (NGOs / Volunteers)
+**For Collectors (NGOs / Volunteers)**
+<br>
 Browse real‑time available food listings
 Track pickup history
 Receive updates from providers
 Authentication roles (Provider / Collector)
 
-#Backend / Infrastructure
+**Backend / Infrastructure**
+<br>
 Firebase Auth (email/password login)
 Firebase Firestore (listings, users, transactions)
 Firebase Storage (photos)
