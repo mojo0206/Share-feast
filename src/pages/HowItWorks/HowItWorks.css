@@ -1,0 +1,37 @@
+.how-container {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.how-title {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.how-subtitle {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.how-cards {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.how-card {
+  background: #f5f5f5;
+  padding: 25px;
+  border-radius: 18px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.icon {
+  font-size: 34px;
+  margin-bottom: 15px;
+  color: #00c853;
+}
