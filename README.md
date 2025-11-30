@@ -9,20 +9,25 @@ A community‑driven food sharing network reducing food waste by linking restaur
 
 __For Providers (Restaurants / Hotels / Bakeries)__
 <br>
+<p align="center">
 Add surplus food listings with 🥘 title, 🧮 quantity, 📍 location, and 📸 photo
 Auto‑detect location + map autocomplete
 Dashboard with live stats (total donations, completed pickups)
 Update listing status (available → collected → completed)
 <br>
+  
 **For Collectors (NGOs / Volunteers)**
 <br>
+<p align="center">
 Browse real‑time available food listings
 Track pickup history
 Receive updates from providers
 Authentication roles (Provider / Collector)
 <br>
+  
 **Backend / Infrastructure**
 <br>
+<p align="center">
 Firebase Auth (email/password login)
 Firebase Firestore (listings, users, transactions)
 Firebase Storage (photos)
